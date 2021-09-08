@@ -13,6 +13,10 @@ let package = Package(
         .library(
             name: "FloatingPanel",
             targets: ["FloatingPanel"]),
+        .library(
+            name: "FloatingPanelDynamic",
+            type: .dynamic,
+            targets: ["FloatingPanel"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
